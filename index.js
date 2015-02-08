@@ -2,6 +2,7 @@ var replacements = [
   [/behaviour/i,    'behavior'],
   [/centre/i,       'center'],
   [/chequed/i,      'checked'],
+  [/cheque(?!d)/i,  'check'],
   [/colour/i,       'color'],
   [/dialogue/i,     'dialog'],
   [/eh/i,           'em'],
