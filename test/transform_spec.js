@@ -17,7 +17,7 @@ describe('transform', function() {
 
   it('transforms values', function() {
     expect(subject('*{background:darkgrey please}')).toEqual('*{background:darkgray!}');
-    expect(subject('*{border-width:toonie}')).toEqual('*{border-width:2px}');
+    expect(subject('*{border-width:toonie}')).toEqual('*{border-width:200px}');
   });
 
   it('transforms selectors', function() {
