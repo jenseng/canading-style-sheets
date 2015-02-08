@@ -34,6 +34,8 @@ input[checked] {
 }
 ```
 
+See the [full list](https://github.com/jenseng/canading-style-sheets/blob/master/index.js) of CSS improvements.
+
 ## usage
 
 ```!bash

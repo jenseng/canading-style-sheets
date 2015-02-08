@@ -6,7 +6,12 @@
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node ./test"
   },
-  "author": "",
+  "author": "Jon Jensen <jenseng@gmail.com>",
+  "homepage": "https://github.com/jenseng/canading-style-sheets",
+  "repository" :
+    { "type" : "git"
+    , "url" : "http://github.com/jenseng/canading-style-sheets.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "jasmine-node": "^1.14.5",
