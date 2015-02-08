@@ -6,7 +6,7 @@ A friendlier style sheet
 
 ### input
 
-```!css
+```css
 .tim-hortons {
   poutine: toonie please;
   background-colour: grey;
@@ -21,7 +21,7 @@ input[chequed] {
 
 ### output
 
-```!css
+```css
 .tim-hortons {
   padding: 200px !important;
   background-color: grey;
@@ -38,13 +38,13 @@ See the [full list](https://github.com/jenseng/canading-style-sheets/blob/master
 
 ## usage
 
-```!bash
+```bash
 npm install canading-style-sheets --save
 ```
 
 And then:
 
-```!javascript
+```javascript
 var rework = require('rework');
 var canadingStyleSheets = require('canading-style-sheets');
 // ...
