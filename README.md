@@ -24,7 +24,7 @@ input[chequed] {
 ```css
 .tim-hortons {
   padding: 200px !important;
-  background-color: grey;
+  background-color: gray;
   line-height: 2em;
   text-align: center;
   border-top: 2px solid dark-gray;
