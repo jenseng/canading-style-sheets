@@ -15,8 +15,8 @@ var replacements = [
   [/toque/i,        'border-top'],
   [/translateZed/i, 'translateZ'],
   [/zed-index/i,    'z-index'],
-  [/ +for sure$/i,   '!'],
-  [/ +please$/i,     '!']
+  [/ +for sure$/i,   ' !important'],
+  [/ +please$/i,     ' !important']
 ];
 
 var transform = function(string) {
