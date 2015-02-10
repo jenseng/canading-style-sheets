@@ -24,7 +24,7 @@ var suggestions = [
 var transform = function(string) {
   suggestions.forEach(function(pair) {
     string = string.replace(pair[0], pair[1]);
-  });re
+  });
   return string;
 };
 
