@@ -1,4 +1,4 @@
-var replacements = [
+var suggestions = [
   [/behaviour/i,    'behavior'],
   [/centre/i,       'center'],
   [/chequed/i,      'checked'],
@@ -17,13 +17,14 @@ var replacements = [
   [/translateZed/i, 'translateZ'],
   [/zed-index/i,    'z-index'],
   [/ +for sure$/i,   ' !important'],
-  [/ +please$/i,     ' !important']
+  [/ +please$/i,     ' !important'],
+  [/ +sorry$/i,     ' !important']
 ];
 
 var transform = function(string) {
-  replacements.forEach(function(pair) {
+  suggestions.forEach(function(pair) {
     string = string.replace(pair[0], pair[1]);
-  });
+  });re
   return string;
 };
 
