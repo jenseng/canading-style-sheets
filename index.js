@@ -13,7 +13,7 @@ var suggestions = [
   [/rotateZed/i,    'rotateZ'],
   [/scaleZed/i,     'scaleZ'],
   [/toonie/i,       '200px'],
-  [/toque/i,        'border-top'],
+  [/t(o|u|ou)que/i, 'border-top'],
   [/translateZed/i, 'translateZ'],
   [/zed-index/i,    'z-index'],
   [/ +for sure$/i,  ' !important'],
