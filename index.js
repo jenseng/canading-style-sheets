@@ -16,8 +16,8 @@ var suggestions = [
   [/toque/i,        'border-top'],
   [/translateZed/i, 'translateZ'],
   [/zed-index/i,    'z-index'],
-  [/ +for sure$/i,   ' !important'],
-  [/ +please$/i,     ' !important'],
+  [/ +for sure$/i,  ' !important'],
+  [/ +please$/i,    ' !important'],
   [/ +sorry$/i,     ' !important']
 ];
 
