@@ -1,6 +1,6 @@
 {
   "name": "canading-style-sheets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a friendlier style sheet",
   "main": "index.js",
   "scripts": {
